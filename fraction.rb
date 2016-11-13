@@ -9,7 +9,7 @@ def fraction
 	    i += 1
 	    n = decimal * i
 		    if decimal == n / i && n.to_int - n.to_f == 0 
-			   puts decimal.to_s + " is the result of the fraction " + n.to_int.to_s + "/" + i.to_s
+			   puts "#{decimal} is the result of the fraction " + n.to_int.to_s + "/#{i}"
 			   break
 		    end	
 	}
